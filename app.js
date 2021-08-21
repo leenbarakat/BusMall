@@ -177,6 +177,7 @@ function chartRender() {
                 y: {
                     beginAtZero: true
                 }
+                // Done
             }
         }
     });
