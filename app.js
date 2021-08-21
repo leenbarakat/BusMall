@@ -24,7 +24,6 @@ for (let i = 0; i < Img.length; i++) {
 }
 
 
-// for save in local storage
 function   LocalStorageSaver()
 {
     let data1 = JSON.stringify(product);
@@ -33,11 +32,10 @@ function   LocalStorageSaver()
 function LocalStorageReader()
 {
     let stringObj1 = localStorage.getItem('product');
-    // let stringObj2 = localStorage.getItem('Views');
+
     
     let normalObj1 = JSON.parse(stringObj1);
-    // let normalObj2 = JSON.parse(stringObj2);
-
+  
     if(normalObj1)
     {  
         product = normalObj1;
