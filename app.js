@@ -40,11 +40,7 @@ function LocalStorageReader()
     {  
         product = normalObj1;
     }
-    // else if (normalObj2)
-    // {
-    //     viewImage = normalObj2;
-
-    // }
+   
 }
 LocalStorageReader();
 
@@ -60,15 +56,12 @@ function ImgOfProduct(productName) {
 
 
 
-// console.log(product);
 
 function RanImg() {
-    return Math.floor(Math.random() * Img.length) // 0 to 18 array lenght is 19
+    return Math.floor(Math.random() * Img.length) 
 }
 
-// let firstIndex;
-// let secondIndex;
-// let thirdIndex;
+
 let firstIndex;
 let scondIndex;
 let thirdIndex;
